@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Conversions</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <section id="home">
+        <header>
+            Unit Conversions
+        </header>
+        <nav>
+            <div class="topdiv">
+                <a href="#temperature"><button class="topmenu">Temperature</button></a>
+                <a href="#weight"><button class="topmenu">Weight</button></a>
+                <a href="#distance"><button class="topmenu">Distance</button></a>
+            </div>
+        </nav>
+    </section>
+
+    <div style="clear: both"></div>
+
+    <div id="all-conversion-sections">
+      <section id="temperature" class="b temperature">
+        <div id="tmp">
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRulusEBj_x1nz49DlN3N50Dirv_lfcQch6tIOK_3hxEINQpS0VjbKGelWsKHM24foZdeA&usqp=CAU"
+              width="200px"
+              alt="Unit picture"
+            />
+            <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+          </figure>
+          <article>
+            <fieldset>
+              <legend>Temperature</legend>
+              <label for="Temperature">Celsius</label> <br />
+              <input type="number" id="c" /> <br />
+              <button id="temperature">Convert</button><br />
+              <input type="number" id="f" /><br />
+              <label for="Temperature">Fahrenheit</label>
+            </fieldset>
+          <aside>
+          </article>
+            To convert celsuis to fahrenheit yourself, use this formula
+            replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+          </aside>
+        </div>
+      </section>
+
+      <div style="clear: both"></div>
+
+      <section id="weight" class="b weight">
+        <div id="wgt">
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdj-hDhUhK4vOat4cRi2sU3uPLbylwOIujA&usqp=CAU"
+              width="200px"
+              alt="Weight picture"
+            />
+            <figcaption>Kilogram to Pound Conversion</figcaption>
+          </figure>
+          <article>
+            <fieldset>
+              <legend>Weight</legend>
+              <label for="Weight">Kilograms</label><br />
+              <input type="number" id="kg" /><br />
+              <button id="weight">Convert</button><br />
+              <input type="number" id="lbs" /><br />
+              <label for="Weight">Pound</label>
+            </fieldset>
+            <aside>
+              To convert kilograms to pounds yourself, use this formula
+              replacing the `kg` with your weight in kilograms: kg x 2.205
+            </aside>
+          </article>
+        </div>
+      </section>
+
+      <div style="clear: both"></div>
+
+      <section id="distance" class="b distance">
+        <div id="dst">
+          <figure>
+            <img
+              src="https://play-lh.googleusercontent.com/W31CoJQmZWXavzNyQoBOSEtFyBii5fNBwkTA0dTHFuoMaNZxzt-WRn1wuPZG_4pjdA"
+              width="200px"
+            />
+            <figcaption>Kilometer to Mile Conversion</figcaption>
+          </figure>
+          <article>
+            <fieldset>
+              <legend>Distancet</legend>
+              <label for="Distance">Kilometers</label><br />
+              <input type="number" id="km" /><br />
+              <button id="distance">Convert</button><br />
+              <input type="number" id="m" /><br />
+              <label for="Distance">Miles</label>
+            </fieldset>
+            <aside>
+              To convert kilometers to miles yourself, use this formula
+              replacing the `km` with your distance in kilmeters: km &divide;
+              1.609
+            </aside>
+          </article>
+        </div>
+      </section>
+
+      <div style="clear: both"></div>
+    </div>
+
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img
+          style="width: 50px"
+          src="https://www.habitat.org/sites/default/files/styles/780w/public/2018-05/icon-house.png?itok=beg84oiG"
+          alt="Go home"
+        />
+      </a>
+    </div>
+
+    <footer>
+      Learn more about HTML as a part of the IBM Fullstack Cloud Developer
+      Certification
+    </footer>
+  </body>
+</html>
